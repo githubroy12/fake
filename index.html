@@ -1,0 +1,72 @@
+<!-- Frontend Code (HTML, CSS, JavaScript) -->
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Food Platform</title>
+    <link rel="stylesheet" href="Styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>College Food Delivery</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#cart">Cart</a>
+            <a href="#order-tracking">Order Tracking</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="hero">
+                <h2>Welcome to College Food Platform</h2>
+                <p>Craving something delicious? We've got you covered!</p>
+                <button class="cta-button" onclick="scrollToSection('menu')">Explore Menu</button>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://via.placeholder.com/150" alt="Feature 1">
+                    <h3>Fast Delivery</h3>
+                    <p>Get your food delivered within minutes.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://via.placeholder.com/150" alt="Feature 2">
+                    <h3>Top Quality</h3>
+                    <p>Enjoy food from trusted local vendors.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://via.placeholder.com/150" alt="Feature 3">
+                    <h3>Affordable Prices</h3>
+                    <p>Delicious food that fits your budget.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul id="menu-items"></ul>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+        </section>
+
+        <section id="order-tracking">
+            <h2>Order Tracking</h2>
+            <p>Track your order status here.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
